@@ -1,8 +1,10 @@
 {
   "name": "project-vanilla-js",
-  "version": "0.0.0",
+  "description": "Project на JavaScript",
   "private": true,
   "type": "module",
+  "license": "MIT",
+  "author": "Акимов Александр",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
