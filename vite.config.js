@@ -19,7 +19,7 @@ export default defineConfig({
 			convert: {
 				enable: true,
 				format: 'webp',
-				deleteOriginImg: false,
+				deleteOriginImg: true,
 			},
 
 			sharpConfig: {

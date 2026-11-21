@@ -5,6 +5,6 @@
 @use 'settings';
 @use 'interface';
 
-@use 'chunk/header';
-@use 'chunk/hero';
-@use 'chunk/footer';
+@use 'index/header';
+@use 'index/hero';
+@use 'index/footer';
