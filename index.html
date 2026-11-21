@@ -10,13 +10,15 @@
 </head>
 
 <body>
+  {{> index/header}}
+
   <div class="site-container">
     <main>
-      <section class="hero">
-        <div class="container"></div>
-      </section>
+      {{> index/hero}}
     </main>
   </div>
+
+  {{> index/footer}}
 
   <script type="module" src="./src/js/main.js"></script>
 </body>
