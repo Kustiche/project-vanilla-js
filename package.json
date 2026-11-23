@@ -6,6 +6,7 @@
 	"license": "MIT",
 	"author": "Акимов Александр",
 	"scripts": {
+		"fonts:convert": "webfont \"./src/resources/fonts/original/*.ttf\" -d \"./src/resources/fonts/optimized\" -f woff2",
 		"dev": "vite --open",
 		"build": "vite build",
 		"preview": "vite preview --open",
@@ -34,6 +35,7 @@
 		"vite": "^8.3.0",
 		"vite-plugin-handlebars": "^2.0.3",
 		"vite-plugin-image-tools": "^4.1.3",
-		"vite-plugin-svg-spritemap": "^2.0.1"
+		"vite-plugin-svg-spritemap": "^2.0.1",
+		"webfont": "^12.7.0"
 	}
 }
